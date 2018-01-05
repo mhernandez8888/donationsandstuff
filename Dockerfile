@@ -13,4 +13,4 @@ COPY donation.py	    /src/donation.py
 COPY setup.py	        /src/setup.py	 
 COPY variables.py     /src/variables.py
 
-CMD ["python", "src/donation.py"]
+CMD ["python", "/src/donation.py"]
